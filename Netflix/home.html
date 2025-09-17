@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- banner section -->
+     <section class="bg-center bg-cover w-[100%] h-[100vh] bg-[url(./background.jpg)]">
+        <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.5)]">
+     <header class="max-w-[1170px] mx-auto">
+        <div class=" grid sm:grid-cols-2 grid-cols-[30%_auto] p-[10px] lg:px-0">
+            <figure>
+                <img src="./logo.png" class="w-[148px]" alt=""/>
+            </figure>
+            <div class="flex justify-end gap-[10px]">
+                <div class="relative">
+  <select class="appearance-none bg-black text-white border border-white p-[7px_40px_7px_20px] rounded-[5px]">
+    <option>English</option>
+    <option>Hindi</option>
+  </select>
+  <svg class="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white pointer-events-none" 
+       xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+  </svg>
+</div>
+
+                    <button class="bg-[red] text-white p-[7px_20px] rounded-[5px] ml-[10px]">
+                        Sign In
+
+                    </button>
+               
+           
+
+        </div>
+        
+     </header>
+     <div class="max-w-[1170px] mx-auto sm:py-[150px] py-[50px] text-center text-white">
+        <h1 class=" text-[30px] sm:text-[45px]  font-bold"> Unlimited movies ,shows and more</h1>
+        <h4 class="text-[20px] py-[15px]">Watch anywhere. Cancel anytime</h4>
+        <p class="text-[20px] ">Ready to watch? Enter your email to create or restart your membership</p>
+     </div>
+     <div class="max-w-[1170px]  mx-auto mt-[30px] text-center">
+        <div class="flex justify-center gap-[10px] sm:flex-row flex-col px-[10px]">
+            <input type="email" placeholder="Email address" class="p-[10px] w-[300px] sm:w-[400px] rounded-[5px] outline-none"/>
+            <button class="bg-[red] text-white p-[10px_20px] rounded-[5px] w-[150px] sm:w-auto">
+                Get Started
+            </button>
+
+     </div>
+
+     </div>
+    </section>
+      <!-- end banner section -->
+
+</body>
+</html>
